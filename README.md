@@ -1,7 +1,10 @@
 # Minesweeper-Matrix
 Formative assesment - ICS4U
 
+### Interpretation
 Use recursive calls on each above, below, right, left, diagonals.
+
+On the first pass you check all surrounding elements, on other calls you add value and check all surrounding ones if they are green.
 
 ### Parameters
  > Call a function to evaluate this cell in the grid
