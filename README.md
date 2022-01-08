@@ -6,6 +6,8 @@ Use recursive calls on each above, below, right, left, diagonals.
 
 On the first pass you check all surrounding elements, on other calls you add value and check all surrounding ones if they are green.
 
+If you are only supposed to check the element on the first pass like any other element, simply remove the check for ( || sum == 0) in if stament check ```main.c```.
+
 ### Parameters
  > Call a function to evaluate this cell in the grid
  > Firstly set the cell to OPEN (open the cell)
